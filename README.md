@@ -1,12 +1,19 @@
 # DataCleaning_Pandas_CustomerCall_List
-## Python-Data cleaning on customer call list dataset using pandas basic
 HERE IS MY FIRST DATA CLEANING PROJECT USING PANDAS IN THIS WE HAVE DONE : 
-1. First Look at Data Provides an initial overview of the dataset using pandas. Demonstrates how to inspect the data, including checking the first few rows and basic statistics.
-2  Removing Duplicates- Explains how to identify and remove duplicate rows from the dataset using pandas. Emphasizes the importance of data cleanliness and how duplicates can impact analysis.
-3. Dropping Columns Shows how to drop unnecessary columns from the dataset. Discusses the rationale behind removing specific columns to streamline data processing.
-4. Strip Introduces the strip function to remove leading and trailing whitespaces from string columns. Highlights the significance of clean and standardized text data.
-5. Cleaning/Standardizing Phone Numbers Demonstrates the process of cleaning and standardizing phone numbers using pandas. Utilizes regular expressions and the apply function to achieve a consistent format.
-6. Splitting Columns Illustrates how to split columns, focusing on the example of breaking down an address into its components. Emphasizes the use of the split function and naming the resulting columns appropriately.
-7. Standardizing Column Values using Replace Explores the use of the replace function to standardize values within a column. Specifically addresses the standardization of "yes" and "no" values.
-8. Fill Null Values Covers methods for filling or handling null (missing) values in the dataset. Demonstrates the use of the fillna function to replace missing values with specified alternatives.
-9. Filtering Down Rows of Data Explains how to filter rows based on specific criteria, focusing on "do not contact" entries and empty phone numbers. Highlights the importance of data filtering for specific analysis requirements.
+
+**1.First Look at Data** : We start by taking a quick look at the data with pandas. This helps us see how it's organized and what kind of information it has.
+
+**2.Removing Duplicates**: Keeping our data clean is important! We'll find and remove duplicate entries using pandas to avoid misleading results. Duplicate data can skew analysis, so removing them ensures each piece of information.
+
+**3.Dropping Columns** :To focus on the most relevant information, we'll use pandas to remove unnecessary columns from the data. This streamlines processing and analysis by concentrating on the features that contribute directly to our goals.
+
+**4.Strip**  Introduces the strip function to remove leading and trailing whitespaces from string columns. Highlights the significance of clean and standardized text data.
+
+**Cleaning/Standardizing Phone Numbers**: Demonstrates the process of cleaning and standardizing phone numbers using pandas. Utilizes regular expressions and the apply function to achieve a consistent format.
+
+**6. Splitting Columns** :For better organization and analysis, we can split columns containing multiple pieces of information. For instance, an 'address' column could be split into separate columns for street, city, state, and zip code using pandas' splitting functions. Assigning clear names to the new columns helps us understand the data more easily.
+
+**7. Standardizing Column Values using Replace**: Explores the use of the replace function to standardize values within a column. Specifically addresses the standardization of "yes" and "no" values.
+
+**8. Fill Null Values** Covers methods for filling or handling null (missing) values in the dataset. Demonstrates the use of the fillna function to replace missing values with specified alternatives.
+
